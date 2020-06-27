@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="homepage.css"/>
+</head>
+<body>
+
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="signlog.html">Sign In</a>
+    <a href="signlog.html">Sign Up</a>
+    <a id=bottom onClick="scrollFunc();">About Us</a>
+
+
+  </div>
+  <br>
+ 
+    <div class="header">
+        <img class="homeImage" src="image2.png" width="750" alt="Build with US">
+        <h1>Build With Us</h1>
+        <p>Effortlessly create impactful team exam sites</p>
+        <a href="signlog.html" class="btn btn-lg btn-primary "><span class="glyphicon glyphicon-arrow-right "></span> Start Now</a>
+    </div>
+    <br><br>
+<div class="AboutUs" id="about" style="background-color:blue;color:white;padding:20px;">
+  <h1 style="font-size: 40px;"> About Us</h1>
+  <p> I started <span style="color:red;">Build with Us</span> because it helps working professionals and students take assessment from their homes.<br>With the current pandemic situation, this platform provides us all that we need at ease.So sit back, and enjoy online exams!</p>
+</div>
+    </body>
+    <script type="text/javascript">
+function scrollFunc() {
+  var elmnt = document.getElementById("about");
+  elmnt.scrollIntoView();
+}
+    </script>
+</html>
